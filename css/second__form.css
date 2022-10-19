@@ -1,0 +1,58 @@
+﻿
+
+.second__form{
+    margin-bottom: 180px;
+}
+.second__form__title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 60px;
+}
+
+.form2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form2 input[type="text"]{
+    text-align: center;
+    padding: 10px 45px;
+    opacity: 0.2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    outline: #FFFFFF;
+}
+
+.form2 input[type="text"]:focus{
+    transition: all .3s ease;
+    border: 3px solid #fff;
+    opacity: 0.5;
+}
+
+
+.form2 input[type="submit"]{
+    padding: 10px 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D4C17F;
+    outline: none;
+    border:none;
+}
+
+.form2 input[type="submit"]:hover{
+    transition: all .3s ease;
+    background: #ffc800;
+}

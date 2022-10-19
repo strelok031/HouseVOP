@@ -1,0 +1,109 @@
+﻿.apartmens{
+    padding-top: 120px;
+    background: #242B33;
+    justify-content: center;
+
+}
+
+.before__cards{
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+}
+
+.before__card{
+    text-align: center;
+    width: 193px;
+}
+
+.before__card__photo{
+   display: block;
+   margin: 0 auto;
+}
+
+.before__card__text{
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.flat-title{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.flat-cards{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flat-link{
+    z-index: 2;
+}
+
+.flat-card{
+    margin-bottom: 30px;
+    width: 535px;
+    height: 320px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#card-1{
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), 
+    url(../image/flat-photo1.png), no-repeat #D4C17F;
+    background-size: 100%;
+}
+
+#card-2{
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), 
+    url(../image/flat-photo2.png), no-repeat #D4C17F;
+    background-size: 100%;
+}
+
+#card-3{
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), 
+    url(../image/flat-photo3.png), no-repeat #D4C17F;
+    background-size: 100%;
+}
+
+#card-4{
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), 
+    url(../image/flat-photo4.png), no-repeat #D4C17F;
+    background-size: 100%;
+}
+
+.flat-link{
+    text-decoration: none;
+}
+
+.item2{
+    position: absolute;
+    top: 800px;
+    right: 160px;
+}
+
+.item3{
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: 1230px;
+}
