@@ -1,7 +1,8 @@
 ﻿
 body{
     font-family: 'Raleway', sans-serif;
-    background: #242B33;;
+    background: #242B33;
+    flex-wrap: wrap;
 }
 
 .container {

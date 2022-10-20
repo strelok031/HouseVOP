@@ -22,6 +22,11 @@
     z-index: -1;
 }
 
+.div__map{
+    max-width: 500px;
+    max-height: 350px;
+}
+
 .title__map{
     margin-bottom: 100px;
     font-family: 'Playfair Display';
